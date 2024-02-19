@@ -1,13 +1,13 @@
 
   #### Please ensure you have already configured AWS CLI to deploy infrastructure to your account
 
-  Please run terrafrom init to initialize project
+**  Please run terrafrom init to initialize project**
 
-  terrafrom plan to see the changes
+**  terrafrom plan to see the changes**
 
-  terraform apply to apply changes
-  
-  ###Please replace or update values against these in main.tf in root directory or by using .tfvars
+**  terraform apply to apply changes**
+  **
+  ###Please replace or update values against these in main.tf in root directory or by using .tfvars**
   
   vpc_cidr                   = "Please enter primary VPC CIDR"
   
