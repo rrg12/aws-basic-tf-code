@@ -3,8 +3,12 @@ on: push
 jobs:
   build:
     runs-on:
-      - ubuntu-22.04
+      - ubuntu-latest
     steps:
-      - run : echo "{{secrets.Test}}"
+    - name: Testing
+      env:
+        SECRET: ${{secrets.Test}}
+      - run: |
+          echo "Secret is SECRET"
           
           
