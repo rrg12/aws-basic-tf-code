@@ -1,0 +1,9 @@
+name: composite
+on: workflow_dispatch
+jobs:
+  build:
+    container:
+      image: busybox
+    steps:
+      - id: testing
+        run: echo "docker -version"
