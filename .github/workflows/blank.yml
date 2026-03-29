@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Testing
       env:
-        SECRET: ${{secrets.Test}}
+        SECRET: ${{secrets.TEST}}
       run: |
         echo "Secret is ${SECRET}"
           
