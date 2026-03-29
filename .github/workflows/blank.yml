@@ -8,7 +8,7 @@ jobs:
     - name: Testing
       env:
         SECRET: ${{secrets.Test}}
-      - run: |
-          echo "Secret is SECRET"
+      run: |
+        echo "Secret is SECRET"
           
           
