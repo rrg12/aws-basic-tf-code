@@ -9,6 +9,6 @@ jobs:
       env:
         SECRET: ${{secrets.Test}}
       run: |
-        echo "Secret is SECRET"
+        echo "Secret is ${SECRET}"
           
           
