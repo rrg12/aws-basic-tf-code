@@ -5,9 +5,6 @@ jobs:
     runs-on:
       - ubuntu-22.04
     steps:
-      - run |
-        echo "{{secrets.Test}}"
-        with:
-          env: {{secrets.Test}}
+      - run : echo "{{secrets.Test}}"
           
           
